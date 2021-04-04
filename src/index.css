@@ -1,12 +1,19 @@
 body {
-  margin: 0;
+  height: -webkit-fill-available;
+  margin: 0px 5%;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
+html,#root.App {
+  height: -webkit-fill-available;
+  background-color: rgb(216, 219, 221);
+}
+.App{
+  padding: 5% 0px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;

@@ -1,0 +1,48 @@
+.Container{
+    font-size: 20px;
+}
+
+@media (min-width: 2560px) {
+    .Container{
+        font-size: 26px;
+    }
+    .enteredBlock{
+        font-size: 26px;
+    }
+}
+
+@media (max-width: 1440px) {
+    .Container{
+        font-size: 20px;
+    }
+    .enteredBlock{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .Container{
+        font-size: 13px;
+    }
+    .enteredBlock{
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 768px) {
+    .Container{
+        font-size: 8px;
+    }
+    .enteredBlock{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+    .Container{
+        font-size: 6px;
+    }
+    .enteredBlock{
+        font-size: 8px;
+    }
+}

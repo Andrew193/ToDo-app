@@ -1,0 +1,39 @@
+{
+  "invoices": [
+    {
+      "id": "5ba37c481ebf9bc589fef5d0",
+      "number": 42175,
+      "date_created": "24-09-2014",
+      "date_supplied": "30-06-2018",
+      "comment": "veniam et est aliquip non ut cupidatat occaecat ipsum qui"
+    },
+    {
+      "id": "a0941fcd-2dc4-4958-9cae-bc06b315b844",
+      "number": "95765845",
+      "date_created": "34-34-2001",
+      "date_supplied": "34-34-2001",
+      "comment": "Super mech test start rest"
+    },
+    {
+      "id": "56d74e3e-3696-446c-bd67-e78320b823ca",
+      "number": 987654,
+      "date_created": "rgfhdfgfhgdhgdh",
+      "date_supplied": "2322424",
+      "comment": "njnbhuhbhyuyhgvgytgfvcft"
+    },
+    {
+      "id": "370f1863-ba6f-41e7-980a-3453b95927e7",
+      "number": 3333333333,
+      "date_created": "34-34-2001",
+      "date_supplied": "34-34-2001",
+      "comment": "Как можно передать данные в другой компонент через NavLink?\nЧто-нибудь типа такого может есть?"
+    },
+    {
+      "id": "37f88bbe-393a-434d-98b9-09f51543bc71",
+      "number": 7934,
+      "date_created": "13-12-2001",
+      "date_supplied": "13-12-2049",
+      "comment": "Test rest faraon start"
+    }
+  ]
+}
