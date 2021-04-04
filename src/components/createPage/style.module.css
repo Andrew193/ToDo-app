@@ -1,8 +1,16 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
 .Error {
     border: 1px solid red;
     padding: 3px;
     font-size: 10px;
     border-radius: 4px;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
     width: fit-content;
 }
 
@@ -64,6 +72,8 @@
 }
 
 .firstLine {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
 }
 
@@ -91,6 +101,18 @@
     .Container form button {
         font-size: 30px;
     }
+    ::-webkit-input-placeholder {
+        font-size: 26px;
+    }
+    ::-moz-placeholder {
+        font-size: 26px;
+    }
+    :-ms-input-placeholder {
+        font-size: 26px;
+    }
+    ::-ms-input-placeholder {
+        font-size: 26px;
+    }
     ::placeholder {
         font-size: 26px;
     }
@@ -117,7 +139,8 @@
         font-size: 13px;
     }
     .firstLine {
-        flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
     }
     .FormCover input {
         width: 97%!important;
@@ -140,6 +163,18 @@
 @media (max-width: 425px) {
     .FormCover {
         font-size: 6px;
+    }
+    ::-webkit-input-placeholder {
+        font-size: 10px!important;
+    }
+    ::-moz-placeholder {
+        font-size: 10px!important;
+    }
+    :-ms-input-placeholder {
+        font-size: 10px!important;
+    }
+    ::-ms-input-placeholder {
+        font-size: 10px!important;
     }
     ::placeholder {
         font-size: 10px!important;

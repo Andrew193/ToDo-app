@@ -1,3 +1,9 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v7.0.29,
+* Autoprefixer: v9.7.6
+* Browsers: last 4 version
+*/
 .Container {}
 
 .item:first-of-type {
@@ -7,9 +13,13 @@
 
 .item {
     position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     padding: 0px 1%;
-    justify-content: space-evenly;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
 }
 
 .item hr {
@@ -19,6 +29,8 @@
 }
 
 .ControlButton {
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
     height: fit-content;
     position: absolute;
 }
@@ -56,6 +68,8 @@
 }
 
 .LogoBlock {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     font-weight: 900;
     color: rgb(183, 187, 190);
