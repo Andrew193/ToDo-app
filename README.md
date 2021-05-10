@@ -13,3 +13,4 @@ npm run startserver
 npm start
 ```
 If everything is done correctly and you have no errors. You will see the main page.
+![Main page](./todo.jpg)
